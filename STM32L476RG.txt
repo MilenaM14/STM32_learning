@@ -1,0 +1,12 @@
+STM32L476RG
+
+void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin) - zmienia stan pinu na przeciwny (HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);)
+
+void HAL_Delay(uint32_t Delay) - opóźnienie (HAL_Delay(500);)
+
+GPIO_PinState - (GPIO_PIN_SET, GPIO_PIN_RESET)
+HAL_GPIO_ReadPin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin) - odczyt stanu przycisku
+
+void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState) - zapalanie i gaszenie diody (GPIO_PIN_RESET,
+GPIO_PIN_SET)
+
