@@ -1,0 +1,15 @@
+# Pliki IDE
+.metadata/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# C/C++ 
+*.o
+*.exe
+
+# Systemowe
+.DS_Store
+Thumbs.db
